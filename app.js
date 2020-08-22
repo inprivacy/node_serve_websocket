@@ -5,8 +5,6 @@ require('./data/seda');
 const server = ws.createServer(function (connection) {
     console.log('有客户端连接');
     var id = 1;
-    // var sendEndpoint;
-    // sendProject;
 
     var sendEndpoint = setInterval(() => {
         if (id <= 7) {

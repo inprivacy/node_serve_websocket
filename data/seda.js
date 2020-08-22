@@ -13,6 +13,7 @@ endpoint_status = (id) => {
                 record_07: Math.random().toFixed(2) > 0.5 ? 1 : 0,
                 record_08: Math.random().toFixed(2) > 0.5 ? 1 : 0,
                 record_09: Math.random().toFixed(2) > 0.5 ? 1 : 0,
+                power: Math.random().toFixed(2) > 0.5 ? 1 : 0,
             }
         }
     };
