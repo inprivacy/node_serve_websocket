@@ -32,11 +32,6 @@ project_status = () => {
                 endpoint_id_06: (Math.random() * 20).toFixed(2),
                 endpoint_id_07: (Math.random() * 20).toFixed(2),
             },
-            weather: {
-                temprature: ((Math.random() + 2) * 10).toFixed(2),
-                humidity: (Math.random() * 100).toFixed(2),
-                presure: (Math.random() * 100).toFixed(2),
-            }
         }
     };
 }
